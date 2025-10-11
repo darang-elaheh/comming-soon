@@ -33,6 +33,15 @@ html{
     padding-left: 2rem;
     padding-right: 2rem;
     }
+    
+    h1{
+    font-size: 2rem!important;
+    letter-spacing: 1rem;}
+
+    .logo{
+    width: 30%;
+    padding-bottom: 1rem!important;
+    }
 }  
   
 @media (max-width: 768px) and (min-width: 576px) {
