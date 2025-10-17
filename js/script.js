@@ -9,7 +9,7 @@ const validateEmail = (email) => {
 
 // real-time validation
 inputEl.addEventListener('input', () => {
-        if (emailRegex.test(inputEl.value.trim())) {
+        if (emailRegex.test(inputEl.value.trim()) || inputEl.value==="")  {
                 erorEl.style.display="none";
                 inputEl.style.outline="none";
         } else {
